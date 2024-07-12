@@ -31,17 +31,16 @@ a {
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 5px; /* add a slight curve to the button */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
-    transition: background-color 0.2s ease; /* add a smooth transition effect */
+    border-radius: 25px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.2s ease; 
 }
 
 a:hover {
 	color: #008cff; 
-	background-color: #f7f7f7; /* add a light gray background on hover */
+	background-color: #f7f7f7; 
 }
 
 a:active {
-	background-color: #e7e7e7; /* add a darker gray background on active */
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* add a deeper shadow on active */
-}
+	background-color: #e7e7e7; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
