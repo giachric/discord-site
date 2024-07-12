@@ -29,16 +29,21 @@ a {
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 100px; /* make the button oval */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.2s ease; 
-    margin-top: 6666666px; /* add some space above the button */
+    margin-top: 20px; 
 }
 
 a:hover {
 	color: #008cff; 
 	background-color: #f7f7f7; 
 }
+
+a:active {
+	background-color: #e7e7e7; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 a:active {
 	background-color: #e7e7e7; 
